@@ -1,0 +1,182 @@
+body{
+    background: linear-gradient(to right, #1e3c72, #2a5298);
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.button{
+    background: linear-gradient(to right, #1e3c72, #2a5298);
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+}
+button{
+    
+    flex: 1;
+    margin: 5px;
+    border: none;
+    background: none;
+    padding: 15px 30px;
+    font-size: 30px;
+    cursor: pointer;
+}
+button:hover{
+    color: white;
+    transform: scale(1.2);
+}
+
+
+.me{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    
+}
+.me1{
+    display: flex;
+    flex-direction: column;
+}
+.me h1{
+    margin-bottom: auto;
+}
+.me h3{
+    margin-top: auto;
+}
+.me img{
+    border-radius: 50%;
+    border: 4px solid white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+
+.portfolio{
+    color: white;
+    text-align: center;
+    font-size: 100px;
+}
+
+
+.skills img{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+.skills h1{
+    text-align: center;
+    font-size: 100px;
+}
+.skills1{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+
+.html:hover{
+    transform: scale(1.2);
+}
+.css:hover{
+    transform: scale(1.2);
+}
+.java:hover{
+    transform: scale(1.2);
+}
+
+
+.skillImg{
+    text-align: center;
+}
+
+.Projects1{
+    display: flex;
+    justify-content: space-around;
+}
+.Projects h1{
+    text-align: center;
+    font-size: 100px;
+}
+.scrin{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.scrin:hover{
+    transform: scale(1.2);
+}
+.srin{
+    width: 150px;
+    height: 200px;
+    border-radius: 20px;
+}
+.weather{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.weather:hover{
+    transform: scale(1.2);
+}
+.weather-image{
+    width: 150px;
+    height: 200px;
+    border-radius: 20px;
+}
+.nike{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.nike:hover{
+    transform: scale(1.2);
+
+}
+.nike-image{
+    width: 150px;
+    height: 200px;
+    border-radius: 20px;
+}
+.Contact h1{
+    text-align: center;
+    font-size: 100px;
+}
+.telegram img{
+    width: 60px;
+}
+.instagram img{
+    width: 60px;
+}
+.numberPhone img{
+    width: 60px;
+}
+.gmail img{
+    width: 60px;
+}
+.contact{
+    display: flex;
+    justify-content: space-evenly;
+}
+.contact a{
+    text-decoration: none;
+}
+.telegram:hover{
+    transform: scale(1.2);
+}
+.instagram:hover{
+    transform: scale(1.2);
+}
+.numberPhone:hover{
+    transform: scale(1.2);
+}
+.gmail:hover{
+    transform: scale(1.2);
+}
+
+
+
